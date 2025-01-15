@@ -23,12 +23,16 @@ Reveal By Progress Shader is a custom shader that reveals an object based on a p
 Add the RevealByProgress component to the game object.
 
 <p align="center">
-  <img width="500px" src="/learn/unity/shaders/script?raw=true" alt="Demo">
+  <img width="500px" src="/learn/unity/shaders/script.png?raw=true" alt="Demo">
 </p>
+
+Set the reference
 
 ```cs
 public RevealByProgress reveal;
 ```
+
+Set the reveal progress
 
 ```cs
 reveal.progress = 0.5f;
